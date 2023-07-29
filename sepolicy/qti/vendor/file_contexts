@@ -59,7 +59,6 @@
 
 # Sensors
 /(odm|vendor/odm)/bin/oplus_sensor_fb    u:object_r:vendor_sensors_exec:s0
-/dev/ssc_interactive                     u:object_r:ssc_interactive_device:s0
 
 # Spunvm
 /dev/block/platform/soc/1d84000\.ufshc/by-name/spunvm    u:object_r:vendor_efs_boot_dev:s0
